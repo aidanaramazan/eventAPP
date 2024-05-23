@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Favorite</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+
+<div class="container">
+    <div style="margin-top: 6%; margin-left:4%"> 
+        <h1>Choose your fav events!!!</h1>
+     <p>🌟 Selecta and Save Your Fav Events!!! 🌟
+        Don't miss out on the fun! Choose and save your favorite events now!</p>
+     <button class="btn">selected</button>
+     <button class="btn">done</button>
+     <button class="btn">trash</button>
+    </div>
+    <div class="newtask"  > 
+        <h1 style="font-size:16px;margin-left:30px;">Select your favs</h1>
+        <input type="text" id="taskInput" class="taskInput" placeholder="Your text">
+  <div  style="margin-top: 10px; "> <button  style="border:none; 
+    background-color:#081E34; 
+    color:white; 
+  border-radius:25px;
+  font-size: 14px;
+  width: 75px;
+  height: 40px;
+  margin-left:30px" onclick="addTask()">Add</button></div>
+    </div>  
+</div>
+
+    <h2>Done</h2>
+    <hr>
+    <div id="taskList"></div>
+    <div id="deletedList"></div>
+
+</body>
+</html>
